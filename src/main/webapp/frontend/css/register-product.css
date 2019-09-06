@@ -1,0 +1,17 @@
+.form-container {
+    padding: 20px 20% 20%;
+}
+
+.form {
+    margin-top: 40px;
+}
+.title {
+    display: flex;
+    font-size: 30px;    
+    justify-content: center;
+}
+
+.btn-register {
+    margin: auto;
+    display: flex !important;
+}
