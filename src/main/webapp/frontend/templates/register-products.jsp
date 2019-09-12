@@ -40,8 +40,27 @@ pageEncoding="UTF-8"%>
 					<input type="text" class="form-control" id="inputQuantityInStock">
 				</div>
 			</div>
-			<button type="submit" class="btn btn-primary btn-register">Cadastrar</button>
+			<!-- Botão para abertura do modal -->
+			<button type="button" class="btn btn-primary btn-register" data-toggle="modal" data-target="#modalExemplo">
+				Registrar
+			</button>
 		</form>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header header-close">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body textModal">Produto registrado com sucesso!</div>
+			</div>
+		</div>
 	</div>
 </body>
 

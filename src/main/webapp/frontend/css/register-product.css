@@ -15,3 +15,7 @@
     margin: auto;
     display: flex !important;
 }
+
+.textModal {
+    text-align: center;
+}
