@@ -2,7 +2,7 @@
 
 .header {
     color: #707070;
-    font-size:40px;
+    font-size: 40px;
     text-align: center;
     font-family: inherit;
     margin-bottom: 50px;
@@ -32,10 +32,10 @@
 
 }
 
-.btn-finalized {
+.btn-menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
@@ -43,7 +43,19 @@
     width: 100%;
     border: 1px solid #007bff;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.value-recived {
+    width: 100%;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+}
+
+.money-change {
+    width: 100%;
+    border: 1px solid #007bff;
+    border-radius: 10px;
 }
 
 .title-value {
@@ -61,4 +73,8 @@
     font-family: inherit;
     font-size: 27px;
     color: #707070;
+}
+
+.down-container {
+    margin-top: 40px;
 }

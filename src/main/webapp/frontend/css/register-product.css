@@ -5,17 +5,25 @@
 .form {
     margin-top: 40px;
 }
+
 .title {
     display: flex;
     font-size: 30px;    
     justify-content: center;
 }
 
-.btn-register {
-    margin: auto;
+.btn {
+    align-items: center;
     display: flex !important;
+    justify-content: space-around;
+    margin: auto;
+    width: 150px;
 }
 
 .textModal {
     text-align: center;
+}
+
+.btn-container {
+    display: flex;
 }

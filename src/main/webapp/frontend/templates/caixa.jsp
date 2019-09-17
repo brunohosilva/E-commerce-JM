@@ -11,6 +11,7 @@ pageEncoding="UTF-8"%>
   <script src="../js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../js/bootstrap.min.css">
+  <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -25,7 +26,6 @@ pageEncoding="UTF-8"%>
               <span class="input-group-text">Nº</span>
             </div>
             <input type="text" class="form-control">
-            <button type="button" class="btn btn-primary">Ok</button>
           </div>
         </div>
         <div>
@@ -46,6 +46,8 @@ pageEncoding="UTF-8"%>
             <input type="text" class="form-control">
           </div>
         </div>
+        <a href="caixa.jsp" type="button" class="btn btn-primary">Adicionar Produto</a>
+
       </div>
       <div class="col-md-9">
         <p class="title center">Lista de Produtos</p>
@@ -139,17 +141,19 @@ pageEncoding="UTF-8"%>
                 <td>1234567</td>
                 <td>Camiseta - Tamanho P</td>
                 <td>1</td>
-                <td>R$29.99</td>
-                <td>R$29.99</td>
+                <td>R$29.99<td>R$29.99</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3 btn-finalized">
-          <button type="button" class="btn btn-outline-primary  btn-lg">Finalizar Compra</button>
+    <div class="row down-container">
+      <div class="col-md-3 btn-menu">
+        <a class="btn btn-primary" href="#" role="button" id="finish-buy">Finalizar compra <i class="fa fa-shopping-cart"></i></a>
+        <a class="btn btn-primary" href="estoque.jsp" role="button">Vizualizar estoque <i class="fa fa-list-ul"></i></a>
+        <a class="btn btn-primary" href="register-products.jsp" role="button">Registrar novo produto <i
+            class="fa fa-save"></i></a>
       </div>
       <div class="col-md-9">
         <div class="subtotal-container">
@@ -157,12 +161,12 @@ pageEncoding="UTF-8"%>
             Subtotal
           </div>
           <div class="value-number">
-            R$00,00
+            R$99,99
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="subtotal-container">
+            <div class="value-recived">
               <div class="title-value ">
                 Total Recebido
               </div>
@@ -172,7 +176,7 @@ pageEncoding="UTF-8"%>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="subtotal-container">
+            <div class="money-change">
               <div class="title-value ">
                 Troco
               </div>

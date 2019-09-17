@@ -13,6 +13,7 @@ pageEncoding="UTF-8"%>
 	<script src="../js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="../css/register-product.css">
 	<link rel="stylesheet" href="../js/bootstrap.min.css">
+	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,19 +32,31 @@ pageEncoding="UTF-8"%>
 				</div>
 			</div>
 			<div class="form-row">
-				<div class="form-group col-md-6">
+				<div class="form-group col-md-4">
+					<label>Código do produto</label>
+					<input type="text" class="form-control" id="inputCodeProduct">
+				</div>
+				<div class="form-group col-md-4">
 					<label>Preço</label>
 					<input type="text" class="form-control" id="inputPrice">
 				</div>
-				<div class="form-group col-md-6">
+				<div class="form-group col-md-4">
 					<label>Quantidade</label>
 					<input type="text" class="form-control" id="inputQuantityInStock">
 				</div>
 			</div>
 			<!-- Botão para abertura do modal -->
-			<button type="button" class="btn btn-primary btn-register" data-toggle="modal" data-target="#modalExemplo">
-				Registrar
-			</button>
+			<div class="btn-container">
+				<button type="button" class="btn btn-primary btn" data-toggle="modal" data-target="#modalExemplo">
+					Registrar <i class="fa fa-save"></i>
+				</button>
+				<a href="estoque.jsp" type="button" class="btn btn-primary btn">
+					Estoque <i class="fa fa-list-ul"></i>
+				</a>
+				<a href="caixa.jsp" type="button" class="btn btn-primary btn">
+					Caixa <i class="fa fa-shopping-cart"></i>
+				</a>
+			</div>
 		</form>
 	</div>
 
