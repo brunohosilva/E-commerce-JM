@@ -8,12 +8,12 @@ pageEncoding="UTF-8"%>
 <head>
 	<title>Cadastro de novos produtos</title>
 	<meta charset="utf-8">
-	<script src="../js/jquery-3.3.1.min.js"></script>
-	<script src="../js/components.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="../css/register-product.css">
-	<link rel="stylesheet" href="../js/bootstrap.min.css">
-	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/components.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles/register-product.css">
+	<link rel="stylesheet" href="js/bootstrap.min.css">
+	<link rel="stylesheet" href="js/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -50,10 +50,10 @@ pageEncoding="UTF-8"%>
 				<button type="button" class="btn btn-primary btn" data-toggle="modal" data-target="#modalExemplo">
 					Registrar <i class="fa fa-save"></i>
 				</button>
-				<a href="estoque.jsp" type="button" class="btn btn-primary btn">
+				<a href="estoque" type="button" class="btn btn-primary btn">
 					Estoque <i class="fa fa-list-ul"></i>
 				</a>
-				<a href="caixa.jsp" type="button" class="btn btn-primary btn">
+				<a href="caixa" type="button" class="btn btn-primary btn">
 					Caixa <i class="fa fa-shopping-cart"></i>
 				</a>
 			</div>

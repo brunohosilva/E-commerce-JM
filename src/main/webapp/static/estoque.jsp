@@ -8,12 +8,12 @@ pageEncoding="UTF-8"%>
 <head>
     <title>Estoque</title>
     <meta charset="utf-8">
-    <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/components.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/stock.css">
-    <link rel="stylesheet" href="../js/bootstrap.min.css">
-    <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/stock.css">
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -87,10 +87,10 @@ pageEncoding="UTF-8"%>
             </tbody>
         </table>
         <div class="btn-container">
-            <a href="register-products.jsp" type="button" class="btn btn-secondary">
+            <a href="cadastro" type="button" class="btn btn-secondary">
                 Registrar produtos <i class="fa fa-save"></i>
             </a>
-            <a href="caixa.jsp" type="button" class="btn btn-secondary">
+            <a href="caixa" type="button" class="btn btn-secondary">
                 Caixa <i class="fa fa-shopping-cart"></i>
             </a>
         </div>
