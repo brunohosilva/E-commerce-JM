@@ -1,0 +1,77 @@
+/*Caixa*/
+
+.container-caixa {
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-danger {
+    display: none;
+    width: 250px;
+    margin: 10px 0px;
+}
+
+.buttons {
+    margin: 15px 0px;
+    outline: none;
+}
+
+#input-search {
+    margin-right: 30px;
+}
+
+a{
+    margin-left: 50px;
+}
+
+#editar{
+    width: 250px;
+}
+/*Registro*/
+
+.registro {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registro input {
+    width: 250px;
+    margin: 15px 0px;
+}
+
+.btn-registrar {
+    margin: 15px 0px;
+    width: 250px;
+}
+
+.alerta {
+    margin-top: 30px;
+    background-color: #8EEB9E;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    display: none;
+}
+#registrar{
+    width: 250px;
+}
+
+
+/*Produto*/
+
+.alert-success {
+    width: 300px;
+    margin: 15px 0px;
+    display: none;
+}
+
+#table-index{
+    display: none;
+}
+
+.btns-estoque {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

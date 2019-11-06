@@ -12,7 +12,7 @@ and open the template in the editor.
   metadata-complete = "true">
 
     <description>
-      Sistema web para compra de mercadorias
+      Sistema de Estoque
     </description>
     <display-name>App</display-name>
 
@@ -22,23 +22,23 @@ and open the template in the editor.
     </servlet>
 
     <servlet>
-        <servlet-name>Caixa</servlet-name>
-        <servlet-class>server.controller.Caixa</servlet-class>
+        <servlet-name>Editar</servlet-name>
+        <servlet-class>server.controller.Editar</servlet-class>
     </servlet>
 
     <servlet>
-        <servlet-name>Cadastro</servlet-name>
-        <servlet-class>server.controller.Cadastro</servlet-class>
+        <servlet-name>Estoque</servlet-name>
+        <servlet-class>server.controller.Estoque</servlet-class>
     </servlet>
 
     <servlet>
-        <servlet-name>Listagem</servlet-name>
-        <servlet-class>server.controller.Listagem</servlet-class>
+        <servlet-name>Produto</servlet-name>
+        <servlet-class>server.controller.Produto</servlet-class>
     </servlet>
 
     <servlet>
-        <servlet-name>Relatorio</servlet-name>
-        <servlet-class>server.controller.Relatorio</servlet-class>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>server.controller.Registro</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -47,22 +47,22 @@ and open the template in the editor.
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>Caixa</servlet-name>
-        <url-pattern>/caixa</url-pattern>
+        <servlet-name>Editar</servlet-name>
+        <url-pattern>/editar</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>Cadastro</servlet-name>
-        <url-pattern>/cadastro</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>Listagem</servlet-name>
+        <servlet-name>Estoque</servlet-name>
         <url-pattern>/estoque</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>Relatorio</servlet-name>
-        <url-pattern>/relatorio</url-pattern>
+        <servlet-name>Produto</servlet-name>
+        <url-pattern>/produto</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/registro</url-pattern>
     </servlet-mapping>
 </web-app>
