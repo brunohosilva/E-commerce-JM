@@ -221,7 +221,7 @@
         
         <!-- Tests -->
         <!-- Fixes dependency convergence within Wiremock, see below -->
-        <jacksonVersion>2.8.6</jacksonVersion>
+        <jacksonVersion>2.10.0</jacksonVersion>
 
         <!-- Integration tests -->
         <arquillianVersion>1.1.11.Final</arquillianVersion>
